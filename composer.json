@@ -1,0 +1,16 @@
+{
+  "name":"User System",
+  "description":"User System",
+  "type":"project",
+  "require": {
+    "twig/twig": "^2.0",
+    "noahbuscher/macaw": "dev-master",
+    "envms/fluentpdo": "1.1.*",
+    "particle/validator": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Application\\":"application/"
+    }
+  }
+}
